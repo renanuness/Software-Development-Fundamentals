@@ -2,5 +2,5 @@
 
 - By Lewis Coulson, Brett Jephson, Rob Larsen
 ```
-https://amzn.to/3s41RuX
+[Amazon](https://amzn.to/3s41RuX)
 ```
