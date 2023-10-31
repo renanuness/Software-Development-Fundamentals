@@ -1,0 +1,25 @@
+header,
+nav,
+section,
+footer,
+div{
+    font-family: arial, sans-serif;
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center;
+    background: #659494;
+    color:white;
+    margin: 30px;
+}
+
+section{
+    border: none;
+    background: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div{
+    border-radius: 3px;
+    margin: 5px;
+}
