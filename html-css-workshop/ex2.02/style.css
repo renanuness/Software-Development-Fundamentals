@@ -1,0 +1,14 @@
+section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div{
+    text-align: center;
+    padding: 100px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 2px;
+    background: rgb(94, 156, 122);
+    color: white;
+}

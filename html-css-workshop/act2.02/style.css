@@ -1,0 +1,17 @@
+header,
+nav,
+div,
+section,
+footer{
+    border: 1px solid black;
+    background: #659494;
+    color:white;
+    margin:20px;
+    padding:30px;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
