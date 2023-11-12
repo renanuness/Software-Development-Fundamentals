@@ -1,0 +1,25 @@
+:root.dark{
+    --background-color: rgb(70, 67, 67);
+    --text-color: white; 
+}
+
+:root{
+    --background-color: rgb(228, 228, 228);
+    --text-color: rgb(0, 0, 0); 
+}
+
+/* Variáveis do body */
+body.dark{
+    --background-color: rgb(70, 67, 67);
+    --text-color: white; 
+}
+
+body.light{
+    --background-color: rgb(228, 228, 228);
+    --text-color: rgb(0, 0, 0); 
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
