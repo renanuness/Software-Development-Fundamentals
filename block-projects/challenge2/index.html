@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <p id="title" onclick="showContent('sobre')">Livraria Saber</p>
+        <ul id="menu">
+            <li class="menu-item" onclick="showContent('sobre')">Sobre</li>
+            <li class="menu-item" onclick="showContent('livros')">Livros</li>
+            <li class="menu-item" onclick="showContent('autores')">Autores mais Vendidos</li>
+        </ul>
+    </header>
+    <main>
+        <div id="sobre" class="content">
+            <h1>Sobre</h1>
+            <section>
+                <p>
+                    A livraria <strong>"Páginas do Mar"</strong> era uma pequena loja no bairro de Botafogo, no</br>
+                    Rio de Janeiro. Fundada por uma jovem empreendedora chamada Ana, a livraria</br>
+                    surgiu da paixão de Ana pelos livros e da vontade de compartilhar essa paixão</br>
+                    com os outros
+                </p>
+
+                <p>
+                    No início, a livraria tinha poucos clientes e era difícil manter o negócio. Mas Ana</br>
+                    persistiu, investindo em eventos literários, oficinas de escrita e parcerias com</br>
+                    escolas e universidades. Com o tempo, a livraria se tornou um ponto de</br>
+                    encontro para escritores, leitores e estudantes, que se reuniam para discutir</br>
+                    literatura, debater ideias e participar de lançamentos de livros.
+                </p>
+
+                <p>
+                    A livraria "Páginas do Mar" também ganhou reconhecimento pela sua seleção</br>
+                    de livros cuidadosamente escolhidos e pela sua decoração acolhedora e</br>
+                    inspiradora, que convidava os clientes a se sentirem em casa.
+                </p>
+            </section>
+            <hr>
+            <div>
+                <h1>Filiais</h1>
+                <p>Botafogo</p>
+                <p>Ipanema</p>
+                <p>Flamengo</p>
+            </div>
+        </div>
+
+        <div id="livros" class="content">
+            <h1>Livros</h1>
+            <ul class="list">
+                <li><a target="_blank" href="https://www.amazon.com.br/Mem%C3%B3rias-P%C3%B3stumas-Cl%C3%A1ssicos-literatura-mundial-ebook/dp/B089N3P2GJ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">Memórias Póstumas de Brás Cubas</a></li>
+                <li><a target="_blank" href="https://www.amazon.com.br/alquimista-Paulo-Coelho/dp/8584390677/ref=sr_1_1?crid=LNJEHSY7R9XB&keywords=o+alquimista&qid=1700251006&s=books&sprefix=o+alq%2Cstripbooks%2C200&sr=1-1">O Alquimista</a></li>
+                <li><a target="_blank" href="https://www.amazon.com.br/Culpa-%C3%89-das-Estrelas/dp/8580572266/ref=sr_1_1_sspa?crid=UG2GW3EDNDH8&keywords=a+culpa+%C3%A9+das+estrelas&qid=1700251021&s=books&sprefix=a+c%2Cstripbooks%2C202&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">A culpa é das estrelas</a></li>
+                <li><a target="_blank" href="https://www.amazon.com.br/Box-As-Cr%C3%B4nicas-Gelo-Fogo/dp/8544100120">Crônicas de Gelo e Fogo</a>
+                    <ul>
+                        <li><a target="_blank" href="https://www.amazon.com.br/Guerra-dos-Tronos-Cr%C3%B4nicas-Gelo/dp/8556510787/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1700251040&sr=1-1">A Guerra dos Tronos</a></li>
+                        <li><a target="_blank" href="https://www.amazon.com.br/dan%C3%A7a-dos-drag%C3%B5es-5/dp/8556510906/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1700251056&sr=1-1">Dança dos Dragões</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="autores" class="content">
+            <h1>Autores</h1>
+            <ol id="autores-list" class="list">
+                <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Machado_de_Assis">Machado de Assis</a></li>
+                <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Paulo_Coelho">Paulo Coelho</a></li>
+                <li><a target="_blank" href="https://pt.wikipedia.org/wiki/F%C3%A1bio_de_Melo">Padre Fábio de Mello</a></li>
+                <li><a target="_blank" href="https://pt.wikipedia.org/wiki/George_Orwell">George Orwell</a></li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <i class="fa-solid fa-book-open" id="icon"></i>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
